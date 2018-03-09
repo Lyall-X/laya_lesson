@@ -1,0 +1,15 @@
+
+import View=laya.ui.View;
+import Dialog=laya.ui.Dialog;
+module ui {
+    export class GameUI extends View {
+
+        public static  uiView:any ={"type":"View","child":[{"props":{"x":25,"y":25,"skin":"ui/back.png"},"type":"Image"},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-01.png"},"type":"Image"}],"props":{"x":158,"y":193,"name":"item0"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-02.png"},"type":"Image"}],"props":{"x":345,"y":191,"name":"item1"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-03.png"},"type":"Image"}],"props":{"x":540,"y":196,"name":"item2"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-04.png"},"type":"Image"}],"props":{"x":126,"y":282,"name":"item3"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-05.png"},"type":"Image"}],"props":{"x":344,"y":285,"name":"item4"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-06.png"},"type":"Image"}],"props":{"x":546,"y":284,"name":"item5"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-07.png"},"type":"Image"}],"props":{"x":122,"y":382,"name":"item6"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-08.png"},"type":"Image"}],"props":{"x":346,"y":388,"name":"item7"}},{"type":"Box","child":[{"props":{"x":7,"skin":"ui/mouse_normal_1.png","y":3,"name":"normal"},"type":"Image"},{"props":{"x":6,"y":17,"skin":"ui/mouse_hit_1.png","name":"hit"},"type":"Image"},{"props":{"y":84,"skin":"ui/mask-09.png"},"type":"Image"}],"props":{"x":566,"y":388,"name":"item8"}}],"props":{"width":800,"height":600}};
+        constructor(){ super()}
+        createChildren():void {
+        
+            super.createChildren();
+            this.createView(ui.GameUI.uiView);
+        }
+    }
+}

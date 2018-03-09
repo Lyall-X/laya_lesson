@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' />
+	<title>www.layabox.com</title>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+	/>
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name='full-screen' content='true' />
+	<meta name='screen-orientation' content='portrait' />
+	<meta name='x5-fullscreen' content='true' />
+	<meta name='360-fullscreen' content='true' />
+	<meta http-equiv='expires' content='0' />
+</head>
+
+<body>
+	<!-- Protobuf -->
+	<!--<script type="text/javascript" src="libs/bytebuffer.js"></script>
+    <script type="text/javascript" src="libs/protobuf.js"></script>-->
+
+	<!--这里是layaAir的类库模块标签,核心库laya.core.js在最前-->
+	<script type="text/javascript" src="libs/laya.core.js"></script>
+	<script type="text/javascript" src="libs/laya.webgl.js"></script>
+	<script type="text/javascript" src="libs/laya.ani.js"></script>
+	<script type="text/javascript" src="libs/laya.filter.js"></script>
+	<script type="text/javascript" src="libs/laya.html.js"></script>
+	<script type="text/javascript" src="libs/laya.particle.js"></script>
+	<script type="text/javascript" src="libs/laya.tiledmap.js"></script>
+	<script type="text/javascript" src="libs/laya.ui.js"></script>
+
+	<!-- 物理引擎matter.js -->
+	<script type="text/javascript" src="libs/matter.js"></script>
+	<script type="text/javascript" src="libs/matter-RenderLaya.js"></script>
+	<!--自定义的js(src文件夹下)文件自动添加到下面jsfile模块标签里面里-->
+	<!--删除标签，ide不会自动添加js文件，请谨慎操作-->
+	<!--jsfile--startTag-->
+	<script src="js/Mole.js"></script>
+	<script src="js/ui/layaUI.max.all.js"></script>
+	<script src="js/GameOver.js"></script>
+	<script src="js/GameStart.js"></script>
+	<script src="js/GameView.js"></script>
+	<script src="js/Hammer.js"></script>
+	<!--jsfile--endTag-->
+
+	<!--启动类添加到这里-->
+	<!--jsfile--Main-->
+	<script src="js/LayaSample.js"></script>
+	<!--jsfile--Main-->
+</body>
+
+</html>

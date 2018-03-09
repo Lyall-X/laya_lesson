@@ -1,0 +1,37 @@
+{
+    "x":0,
+    "type":"View",
+    "selectedBox":1,
+    "selecteID":1,
+    "props":{"width":500,"top":15,"sceneColor":"#000000","height":100,"centerX":0},
+    "nodeParent":-1,
+    "label":"View",
+    "isOpen":true,
+    "isDirectory":true,
+    "isAniNode":true,
+    "hasChild":true,
+    "compId":1,
+    "child":[
+        {
+            "x":15,
+            "type":"Label",
+            "props":{"var":"notice","text":"捡到了球体","styleSkin":"comp/label.png","name":"gonggao","fontSize":25,"font":"Arial","color":"#def153","centerY":0,"centerX":0,"bold":true},
+            "nodeParent":1,
+            "label":"Label(notice)",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":2,
+            "child":[
+                ]
+        }],
+    "animations":[
+        {
+            "nodes":[
+                ],
+            "name":"ani1",
+            "id":1,
+            "frameRate":24,
+            "action":0
+        }]
+}

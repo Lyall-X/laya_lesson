@@ -1,0 +1,29 @@
+D .
+R E3DDBBEE .DS_Store
+D ui
+R 6D88006A .DS_Store
+R 90A90122 back.png
+P 88BF7C9C btn_restart.png
+P 96015AC9 btn_start.png
+P 60053BEA clip_number.png
+P 7333C265 hammer.png
+R 3F6665F9 help.png
+P 83C94943 mask-01.png
+P 0F45384F mask-02.png
+P 523282A1 mask-03.png
+P A8EC9564 mask-04.png
+P 94786531 mask-05.png
+P D1DF9307 mask-06.png
+P 67588E33 mask-07.png
+P 3A23394E mask-08.png
+P FCE7954A mask-09.png
+P 0ACF3BA0 mouse_hit_1.png
+R 87E1FD2A mouse_hit_2.png
+P 565A01DA mouse_normal_1.png
+R E10D3C81 mouse_normal_2.png
+P E2F70C18 overBg.png
+P C02DEFDF progress_time$bar.png
+P D8515507 progress_time.png
+R 7B01914E score_1.png
+P 2B3A1D07 score_2.png
+P 202C5525 total Score.png

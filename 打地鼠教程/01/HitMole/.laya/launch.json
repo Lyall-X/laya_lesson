@@ -1,0 +1,39 @@
+{
+	"version": "0.2.0",
+	"configurations": [ 
+		{
+			"name": "layaAir",
+			"type": "chrome",
+			"request": "launch",
+			"url": "${workspaceRoot}/bin/index.html",
+			"runtimeExecutable": "${execPath}",
+			"useBuildInServer": true,
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}",
+			"port": 9222
+		},
+		{
+			"name": "chrome调试",
+			"type": "chrome",
+			"request": "launch",
+			"url": "${workspaceRoot}/bin/index.html",
+			// "换成自己的谷歌安装路径，": 0,
+			"runtimeExecutable": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+			"runtimeArgs": [
+				"--allow-file-access-from-files",
+				"--allow-file-access-frome-files",
+				" --disable-web-security"
+			],
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}"
+		},
+		{
+			"name": "Attach with sourcemaps",
+			"type": "chrome",
+			"request": "attach",
+			"port": 9222,
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}"
+		}
+	]
+}
